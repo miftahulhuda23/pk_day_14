@@ -1,9 +1,14 @@
 {
   "List": [
     {
-      "Day": "sdadsad",
-      "Activies": "dada",
+      "Day": "SABTU ",
+      "Activies": "BELAJAR",
       "id": 2
+    },
+    {
+      "Day": "MINGGU",
+      "Activies": "MAIN",
+      "id": 3
     }
   ]
 }

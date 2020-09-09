@@ -1,7 +1,7 @@
 import React from "react";
 
 const Table = (props) => {
-  const { todo, remove } = props;
+  const { todo, remove, update } = props;
 
   const mapData = todo.map((data, index) => {
     return (
@@ -13,7 +13,10 @@ const Table = (props) => {
           <button className="btn btn-danger" onClick={() => remove(data.id)}>
             Delete
           </button>
-          <button className="btn btn-secondary">Update</button>
+          &nbsp;
+          <button className="btn btn-primary" onClick={() => update(data.id)}>
+            Update
+          </button>
         </td>
       </tr>
     );
